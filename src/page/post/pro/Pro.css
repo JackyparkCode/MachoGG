@@ -1,0 +1,24 @@
+.ProBody {
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+}
+.textsize{
+    font-size: 46px;
+}
+.summonerImage{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 8px;
+    border-radius: 9px;
+}
+.percentage{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+.center1{
+    width: 200px;
+    color: #6c757d;
+}

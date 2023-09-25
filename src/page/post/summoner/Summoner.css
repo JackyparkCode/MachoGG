@@ -1,0 +1,2008 @@
+.h1, p {
+    font-family: Lato;
+}
+
+
+.participants{
+    display: flex;
+    margin-left: 12px;
+}
+.one-champ{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 88px;
+    height: 18px;
+    text-align: left;
+    white-space: nowrap;
+}
+.icon1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.name1{
+    font-size: 12px;
+    color: inherit;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.rightbody{
+    text-align: center;
+    display: table;
+    width: 689px;
+    border-collapse: collapse;
+    border: 0px solid #cdd2d2;
+
+
+}
+.game-second-box{
+    gap: 2px;
+}
+.champspell{
+    margin-left: 4px;
+}
+.my-item{
+    margin-top: 8px;
+}
+.kill-death{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 107px;
+    padding-right: 12px;
+    margin-right: 8px;
+    margin-left: 12px;
+}
+.kill-death1{
+    line-height: 22px;
+    font-size: 15px;
+
+    font-family: Roboto, sans-serif;
+}
+.kill-death2{
+    color: red;
+}
+.ctrl-ward{
+    color: #adb5bd;
+    font-size: 11px;
+}
+.minion{
+    color: #adb5bd;
+    font-size: 11px;
+}
+.sInfo{
+    flex-direction: column;
+    display: flex;
+    width: 100px;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.d{
+    color: red;
+}
+.my-tier{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+}
+.ratio1{
+    text-align: center;
+    font-size: 10px;
+    color: #adb5bd;
+    line-height: 16px;
+}
+.champ-runes{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.champion-level{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: rgb(32, 45, 55);
+    font-family: Roboto, sans-serif;
+}
+.champ-spell{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+.champ-img-box{
+    display: block;
+    border-radius: 50%;
+}
+.item-image{
+    border-radius: 4px;
+}
+.ward-image{
+    border-radius: 50%;
+}
+.bar{
+    width: 48px;
+    height: 1px;
+    margin: 8px 0px 4px;
+}
+.type{
+    text-align: center;
+    font-size: 10px;
+    color: #adb5bd;
+    line-height: 16px;
+}
+.solrang{
+    font-size: 12px;
+    color: #0a53be;
+}
+.solrang-true{
+    font-size: 12px;
+    color: #0a53be;
+    font-weight: bold;
+}
+.solrang-false{
+    font-size: 12px;
+    color: #c6443e;
+    font-weight: bold;
+}
+.table-responsive{
+    border-radius: 10px;
+}
+.profile{
+    border-radius: 30%;
+}.header {
+     position: relative;
+     width: 1000px;
+     margin: 0 auto;
+     padding: 20px 0 0 0;
+ }
+
+.face {
+    display: inline-block;
+    width: 100px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.profileIcon {
+    position: relative;
+}
+
+.borderImage {
+    background-image: url("http://opgg-static.akamaized.net/images/borders2/challenger.png");
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 120px;
+    height: 120px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.profileImage {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.level {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -22px;
+    width: 44px;
+    height: 24px;
+    padding-top: 3px;
+    box-sizing: border-box;
+
+    background-size: 100%;
+    line-height: 17px;
+    font-family: Helvetica, AppleSDGothic, "Apple SD Gothic Neo", AppleGothic,
+    Arial, Tahoma;
+    font-size: 14px;
+    text-align: center;
+    color: #eabd56;
+}
+
+.profile {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    margin: 0 25px 0 25px;
+    vertical-align: top;
+    line-height: 1.1;
+}
+
+.name {
+    color: #242929;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.rank {
+    margin-bottom: 5px;
+}
+
+.link {
+    color: #555e5e;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.ranking {
+    color: #059ede;
+    font-weight: bold;
+}
+
+.buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    margin: 15px 0 -6px;
+    white-space: nowrap;
+}
+
+.button__blue {
+    border: 1px solid #1a78ae;
+    background: #1f8ecd;
+    color: #f2f2f2;
+    width: 90px;
+    height: 41px;
+}
+
+.ladderRank {
+    font-size: 11px;
+}
+
+.lastUpdate {
+    width: 130px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 12px;
+    color: #99a2a2;
+    font-size: 11px;
+}
+
+.contentWrap {
+    overflow: hidden;
+}
+
+.tabItem__content {
+    width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.sideContent2{
+    display: table;
+    width: 689px;
+    border-collapse: collapse;
+    border: 0;
+}
+.sideContent {
+    display: inline-block;
+    width: 300px;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.tierbox {
+    margin-top: 30px;
+    border: 0px solid #cdd2d2;
+    border-radius: 2px;
+}
+
+.summonerRating {
+    display: table;
+    width: 100%;
+    color: #879292;
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 8px 0;
+/* border-radius */
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+/* box-shadow */
+-webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+-moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+
+}
+
+.medal {
+    display: table-cell;
+    vertical-align: middle;
+    width: 120px;
+    height: 124px;
+    text-align: center;
+}
+
+.medalImage {
+    width: 104px;
+    height: 104px;
+    margin: -5px 0 -10px 0;
+}
+
+.tierRankInfo {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.rankType {
+    font-size: 11px;
+    color: #879292;
+}
+
+.tierRank {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1f8ecd;
+}
+
+.leaguePoints {
+    color: #555e5e;
+    font-weight: bold;
+}
+
+.sub-tier {
+    margin-top: 8px;
+    padding: 16px 0;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: solid 1px #cdd2d2;
+}
+
+.img-sub-tier__medal {
+    width: 64px;
+    height: 64px;
+    margin: 0 28px;
+}
+
+.img-sub-tier__medal {
+    justify-content: center;
+}
+
+.sub-tier__rank-type {
+    font-size: 11px;
+    color: #879292;
+}
+
+.sub-tier__rank-tier__unranked {
+    color: #879292;
+}
+
+.realContent {
+    display: inline-block;
+    /* width: 690px; */
+    width: 680px;
+    margin-left: 10px;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.gameListContainer {
+    margin-top: 30px;
+}
+
+.content {
+    position: relative;
+}
+
+.gameItem > .content > div {
+    display: table-cell;
+    height: 96px;
+    vertical-align: middle;
+}
+
+.gameItem > .content {
+    display: table;
+    width: 689px;
+    border-collapse: collapse;
+    border: 1px solid #cdd2d2;
+}
+
+.gameItemList {
+    margin-top: 8px;
+}
+
+.gameItemWrap {
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.content {
+    table-layout: fixed;
+    /* background-color: #a3cfec; */
+    border-color: #99b9cf;
+}
+
+.gameItemWinExtended {
+    position: relative;
+    background: #a3cfec;
+}
+
+.gameItemLoseExtended {
+    position: relative;
+    background: #e2b6b3;
+}
+
+.gameState {
+    border-bottom: 1px solid #4aa1d2;
+}
+
+.gameType {
+    font-weight: bold;
+    width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gameStats {
+    vertical-align: middle;
+    width: 70px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+    line-height: 16px;
+    text-align: center;
+    display: table-cell;
+}
+
+
+.bar-true {
+    display: block;
+    width: 27px;
+    margin: 5px auto;
+    height: 2px;
+
+    background: #6b88d899;
+}
+
+.bar-false {
+    display: block;
+    width: 27px;
+    margin: 5px auto;
+    height: 2px;
+    background: #d16f6a99;
+}
+
+/* .gameResult {
+  color: #1a78ae;
+} */
+
+.RowWin {
+    background-color: #8993ee22;
+}
+
+.RowLose {
+    background-color: #e2828222;
+}
+
+.RowNowWin {
+    background-color: #8993ee55;
+}
+
+.RowNowLose {
+    background-color: #e2828255;
+}
+
+.GameDetailTable > .Header > .Row > .HeaderCell > .GameResult {
+    color: red;
+}
+
+
+
+.gameSettingInfo {
+    display: table-cell;
+    height: 96px;
+    vertical-align: middle;
+    width: 120px;
+    font-size: 0;
+}
+
+.championImage {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.championIcon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.summonerSpell {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.rune {
+    width: 22px;
+    height: 22px;
+}
+
+.rune1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.rune2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.championName {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spell1 {
+    margin-left: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.summonerSpell1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.spell2 {
+    margin-left: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-top: 0px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.summonerSpell2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.runes {
+
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-bottom: -1px;
+}
+
+.rune1 {
+    margin-top: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.rune2 {
+    margin-top: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.runeImage1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.runeImage2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.championName {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kdaWrap {
+    display: table-cell;
+    height: 96px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 11px;
+    width: 150px;
+}
+.css-150oaqg {
+    display: inline-block;
+    width: 740px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.kda {
+    color: #879292;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.kdaRatio {
+    color: #555e5e;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.kill {
+    padding: 4px;
+    color: #555e5e;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.death {
+    padding: 4px;
+
+    color: #c6443e;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.assist {
+    padding: 4px;
+
+    color: #555e5e;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.stats {
+    width: 90px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    color: #555e5e;
+    width: 160px;
+}
+
+.statsLevel {
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    color: #555e5e;
+}
+
+.ckRate {
+    color: #c6443e;
+}
+
+.items {
+    display: table-cell;
+    vertical-align: middle;
+    width: 160px;
+}
+
+.itemList {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.item {
+    background-color: #85858555;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-right: 2px;
+    overflow: hidden;
+}
+
+.itemImg {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.statusBtn {
+    border-bottom-color: #64b1e4;
+    border-bottom: 1px solid #4aa1d2;
+    width: 30px;
+    border: 1px solid #000;
+    display: table-cell;
+    height: 96px;
+    vertical-align: middle;
+    border-color: #4aa1d2;
+}
+
+.statusBtn-lose {
+    border-bottom-color: #c6443e;
+    border-color: #c6443e;
+}
+
+.content2 {
+    position: relative;
+    border-collapse: collapse;
+    position: relative;
+    width: 30px;
+    height: 96px;
+}
+
+.material-icons {
+    position: absolute;
+    bottom: 0px;
+    left: 3px;
+    cursor: pointer;
+    color: #016aa7;
+}
+
+.material-icons-lose {
+    color: #c6443e;
+}
+
+.GameItem.extended.Win > .GameDetail {
+    background: #64b1e4;
+}
+
+.RealContent {
+    font-size: 12px;
+}
+
+.MatchDetailLayout .MatchDetailContent {
+    background: #ededed;
+    border-top: none;
+}
+
+.GameDetailTable {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+.GameDetailTable > colgroup > .ChampionImage {
+    width: 60px;
+}
+
+.GameDetailTable > colgroup > .SummonerSpell {
+    width: 18px;
+}
+
+.GameDetailTable > colgroup > .KeystoneMastery {
+    width: 40px;
+}
+
+col {
+    display: table-column;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.GameDetailTable > colgroup > .Tier {
+    width: 65px;
+}
+
+.GameDetailTable > colgroup > .OPScore {
+    width: 55px;
+}
+
+.GameDetailTable > colgroup > .KDA {
+    width: 120px;
+}
+
+.GameDetailTable > colgroup > .Damage {
+    width: 80px;
+}
+
+.GameDetailTable > colgroup > .Ward {
+    width: 48px;
+}
+
+.GameDetailTable > colgroup > .CS {
+    width: 55px;
+}
+
+.GameDetailTable > colgroup > .Items {
+    width: 170px;
+}
+
+.GameDetailTable > .Header {
+    border: solid 1px #cdd2d2;
+    background-color: #fff;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    margin-bottom: -20px;
+}
+
+.GameDetailTable > .Header > .Row > .HeaderCell:first-child {
+    padding-left: 15px;
+    text-align: left;
+}
+
+.GameDetailTable > .Header > .Row > .HeaderCell {
+    height: 32px;
+    color: #555e5e;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.GameDetailTable.Result-WIN > .Header .Row > .HeaderCell > .GameResult {
+    color: #1a78ae;
+}
+
+.GameDetailTable > .Header > .Row > .HeaderCell > .GameResult {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.GameDetailTable.Result-WIN > .Header .Row > .HeaderCell > .GameResult {
+    color: #1a78ae;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.ChampionImage {
+    padding-left: 10px;
+    padding-right: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.ChampionImage > a {
+    position: relative;
+    display: block;
+}
+
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.ChampionImage > a > .Image {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.ChampionImage > a > .Level {
+    position: absolute;
+    left: -10px;
+    bottom: -3px;
+    width: 15px;
+    height: 15px;
+
+    color: black;
+    font-size: 10px;
+    font-family: "Tahoma";
+    text-align: center;
+    line-height: 15px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.SummonerSpell > .Image:first-child {
+    margin-bottom: 2px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.SummonerSpell > .Image {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.SummonerSpell > .Image {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Rune > .Image:first-child {
+    margin-bottom: 2px;
+    background: #000;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Rune > .Image {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Rune > .Image {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.SummonerName {
+    padding-left: 5px;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.SummonerName > .Link {
+    color: #555e5e;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Tier {
+    color: #555e5e;
+    font-size: 11px;
+    text-align: center;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.OPScore {
+    text-align: center;
+    white-space: nowrap;
+    font-family: HelveticaNeue;
+    font-size: 10px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.OPScore > .Text {
+    color: #333333;
+    font-size: 11px;
+    height: 14px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.OPScore > .Score {
+    background-color: #737373;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.OPScore > .Badge {
+    color: #fff;
+    border-radius: 7px;
+    padding: 2px;
+    margin: 0 auto;
+    width: 30px;
+    height: 10px;
+    line-height: 1;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.KDA {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.KDA > .KDARatio.green {
+    color: #2daf7f;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.KDA > .KDARatio {
+    /* color: #879292; */
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.KDA > .KDA {
+    color: #555e5e;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.KDA > .KDA {
+    color: #555e5e;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Damage {
+    text-align: center;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Ward {
+    text-align: center;
+    color: #555e5e;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Damage > .ChampionDamage {
+    color: #555e5e;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Damage > .Progress {
+    width: 50px;
+    height: 6px;
+    margin: 0 auto;
+    border: 1px solid #cdd2d2;
+    background-color: #f2f2f2;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Damage > .Progress .Fill {
+    height: 100%;
+    margin: -1px;
+    border: 1px solid #c6443e;
+    background-color: #ee5a52;
+    width: 100%;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Ward {
+    text-align: center;
+    color: #555e5e;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Ward {
+    text-align: center;
+    color: #555e5e;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.CS {
+    text-align: center;
+    color: #777;
+    font-size: 11px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.CS > .CS {
+    color: #555e5e;
+}
+
+.GameDetailTable > .Content > .Row.first > .Cell {
+    padding-top: 4px;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Items {
+    text-align: center;
+    font-size: 0;
+}
+
+.GameDetailTable > .Content > .Row > .Cell {
+    padding: 3px 0;
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Items > .Item:first-child {
+    margin-left: 0;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Items > .Item {
+    padding: 1px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    /* margin-left: 1px; */
+    vertical-align: middle;
+}
+
+.GameDetailTable > .Content > .Row > .Cell.Items > .Item > .Image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+img {
+    border: 0;
+}
+
+.GameDetailTableWrap > .Summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #cdd2d2;
+    border-right: 1px solid #cdd2d2;
+    background-color: #e4e4e4;
+}
+
+small,
+div,
+p,
+span,
+button {
+    font-family: Helvetica, "Malgun Gothic", "Apple SD Gothic Neo", AppleGothic,
+    Dotum, Arial, Tahoma;
+}
+
+.GameDetailTableWrap > .Summary > .Team:first-child {
+    padding-right: 0;
+    padding-left: 10px;
+    text-align: left;
+    border-left: 1px solid transparent;
+}
+
+.GameDetailTableWrap > .Summary > .Team {
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    /* padding-right: 10px; */
+    /* text-align: right; */
+    line-height: 30px;
+}
+
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore {
+    display: inline-block;
+    font-size: 11px;
+    color: #555;
+}
+
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore > .Image,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore > .Image {
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+    height: 16px;
+}
+
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore + .ObjectScore,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore + .ObjectScore,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore + .ObjectScore,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore + .ObjectScore {
+    margin-left: 10px;
+}
+
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore {
+    display: inline-block;
+    font-size: 11px;
+    color: #555;
+}
+
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore > .Image,
+.GameDetailTableWrap > .Summary > .Team > .ObjectScore > .Image {
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+    height: 16px;
+}
+
+.summary-graph {
+    flex: 0 1 390px;
+}
+
+.summary-graph > .total--container:first-child {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.summary-graph > .total--container {
+    display: flex;
+    justify-content: center;
+    padding: 0 8px; 
+}
+
+.summary-graph > .total--container > .graph--title {
+    text-align: left;
+    width: 100%;
+}
+
+.summary-graph > .total--container > .text {
+    font-size: 10px;
+    color: #222222;
+}
+
+.summary-graph > .total--container > .graph--data__left {
+    text-align: center;
+}
+
+.summary-graph > .total--container > .graph--data {
+    width: 40px;
+}
+
+.summary-graph > .total--container > .text {
+    font-size: 10px;
+    color: #222222;
+}
+
+.summary-graph > .total--container > .graph--container {
+    flex: 0 1 290px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin: 0 3px;
+}
+
+.summary-graph > .total--container > .graph--container > .win--team {
+    background-color: #548dca;
+    margin-left: 4px;
+    flex: 23;
+}
+
+.summary-graph > .total--container > .graph--container > .graph {
+    /* flex: 1; */
+    height: 10px;
+}
+
+.summary-graph > .total--container > .graph--container > .lose--team {
+    background-color: #d05a53;
+    margin-right: 4px;
+    flex: 9;
+}
+
+.summary-graph > .total--container > .graph--container > .graph {
+    /* flex: 1; */
+    height: 10px;
+}
+
+.summary-graph > .total--container > .graph--data__right {
+    text-align: left;
+}
+
+.summary-graph > .total--container > .graph--data {
+    width: 40px;
+}
+
+.summary-graph > .total--container > .text {
+    font-size: 10px;
+    color: #222222;
+}
+
+.summary-graph > .total--container:last-child {
+    padding-bottom: 8px;
+}
+
+.summary-graph > .total--container {
+    display: flex;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+
+.summary-graph > .total--container > .text {
+    font-size: 10px;
+    color: #222222;
+}
+
+.summary-graph > .total--container > .graph--data__left {
+    text-align: right;
+}
+
+.summary-graph > .total--container > .graph--data {
+    width: 40px;
+}
+
+.summary-graph > .total--container > .text {
+    font-size: 10px;
+    color: #222222;
+}
+
+.summary-graph > .total--container > .graph--container {
+    flex: 0 1 290px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin: 0 3px;
+}
+
+.summary-graph > .total--container > .graph--container > .win--team {
+    background-color: #548dca;
+    margin-left: 4px;
+    flex: 45395;
+}
+
+.summary-graph > .total--container > .graph--container > .lose--team {
+    background-color: #d05a53;
+    margin-right: 4px;
+    flex: 38060;
+}
+
+.GameDetailTableWrap > .Summary > .Team:last-child {
+    padding-right: 10px;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+.GameDetailTableWrap > .Summary > .Team {
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    /* padding-right: 10px; */
+    /* text-align: right; */
+    line-height: 30px;
+}
+
+.GameDetailTable {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.detailChampIcon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.Box {
+    border: 1px solid #cdd2d2;
+    box-shadow: 0 1px #dcdfdf;
+    background: #f2f2f2;
+    border-radius: 2px;
+}
+
+
+.GameMoreButton > .Button {
+    display: block;
+    height: 50px;
+    color: #555e5e;
+    font-size: 13px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+/*여기서부터 한경기정보*/
+.champ-Info-Bar{
+    flex-direction: row;
+}
+.css-1478wry thead th .result {
+    margin-right: 4px;
+    font-weight: bold;
+}
+.css-win{
+    font-size: 12px;
+    color: #4171D6;
+}
+.css-lose{
+    font-size: 12px;
+    color: red;
+}
+.css-1478wry thead th {
+    height: 32px;
+    color: #9AA4AF;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D5E3FF;
+}
+.css-12kdhht td.champion {
+
+    padding-left: 10px;
+    padding-right: 4px;
+}
+ .css-12kdhht td:nth-of-type(1) {
+     padding-top: 4px;
+ }
+.spells{
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.css-12kdhht td.champion a .level {
+
+    position: absolute;
+    right: 0px;
+    bottom: 00px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    font-size: 11px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: rgb(32, 45, 55);
+    font-family: Roboto, sans-serif;
+
+}
+.css-12kdhht td.champion a img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.css-12kdhht td.champion a > div {
+    position: relative;
+    width: 32px;
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5px;
+    /* background-color: #f8f9fa; */
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px transparent;
+}
+.table_light{
+    padding: 0.5rem 0.5px;
+    border-bottom-width: 1px;
+    background-color: #f8f9fa;
+    box-shadow: inset 0 0 0 9999px transparent;
+}
+
+/* .css-1478wry tbody {
+    background-color: #ECF2FF;
+    border-top: 1px solid rgb(213, 227, 255);
+    border-right-color: rgb(213, 227, 255);
+    border-bottom-color: rgb(213, 227, 255);
+    border-left-color: rgb(213, 227, 255);
+} */
+
+.css-false{
+    background-color: #FFF1F3;
+    border-top: 1px solid rgb(255, 216, 217);
+    border-right-color: rgb(255, 216, 217);
+    border-bottom-color: rgb(255, 216, 217);
+    border-left-color: rgb(255, 216, 217);
+
+}
+.css-true{
+    background-color: #ECF2FF;
+    border-top: 1px solid rgb(213, 227, 255);
+    border-right-color: rgb(213, 227, 255);
+    border-bottom-color: rgb(213, 227, 255);
+    border-left-color: rgb(213, 227, 255);
+}
+.css-150oaqg {
+    display: inline-block;
+    width: 740px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 12px;
+    vertical-align: top;
+}
+element.style {
+    position: relative;
+}
+ .css-12kdhht td.champion a {
+     position: relative;
+     display: block;
+ }
+.css-12kdhht td.spells div:nth-of-type(1) {
+    margin-bottom: 2px;
+}
+.css-12kdhht td.spells div {
+    width: 16px;
+    height: 16px;
+}
+.css-12kdhht td.spells div img {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+.css-12kdhht td.runes div:nth-of-type(1) {
+    margin-bottom: 2px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.css-12kdhht td.runes div {
+    width: 16px;
+    height: 16px;
+}
+.css-12kdhht td.runes div img {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.css-12kdhht td.name {
+    padding-left: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.css-12kdhht td.name a {
+    line-height: 16px;
+    color: #202D37;
+    font-size: 12px;
+    text-decoration: none;
+}
+.css-12kdhht td.name .tier {
+    color: #9AA4AF;
+    font-size: 11px;
+    line-height: 14px;
+}
+.css-12kdhht td.name .tier div {
+    text-transform: capitalize;
+}
+.css-12kdhht td.op-score {
+    text-align: center;
+    white-space: nowrap;
+    font-family: Roboto, sans-serif;
+}
+.css-12kdhht td.op-score .wrapper {
+    display: flex;
+    justify-content: left;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-12kdhht td.op-score .score {
+    color: #202D37;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    height: 14px;
+    width: 20px;
+}
+.css-12kdhht td.op-score .rank > div {
+    max-width: fit-content;
+    box-sizing: border-box;
+}
+ .css-stv58e {
+     font-family: Roboto, sans-serif;
+     background-color: #758592;
+     color: rgb(255, 255, 255);
+     border-radius: 9px;
+     margin-left: 4px;
+     padding: 0px 8px;
+     height: 18px;
+     line-height: 18px;
+     font-size: 10px;
+     font-weight: normal;
+ }
+ .doublekill{
+    width: fit-content;
+    left: 10px;
+ }
+ .css-stv58e2 {
+    font-family: Roboto, sans-serif;
+    background-color: #E84057;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-left: 4px;
+    padding: 0px 8px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.css-stv58e3 {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(17, 170, 106);
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-left: 4px;
+    padding: 0px 8px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.css-stv58e4 {
+    font-family: Roboto, sans-serif;
+    background-color: deepskyblue;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-left: 4px;
+    padding: 0px 8px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.css-stv58e5 {
+    font-family: Roboto, sans-serif;
+    background-color: indigo;
+    color: white;
+    border-radius: 9px;
+    margin-left: 4px;
+    padding: 0px 8px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.css-12kdhht td.kda {
+    text-align: center;
+    white-space: nowrap;
+    font-family: Roboto, sans-serif;
+}
+.css-12kdhht td.kda .k-d-a {
+    color: #758592;
+    line-height: 14px;
+    font-size: 11px;
+}
+.css-ufjp55 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #F06F00;
+}
+.css-12kdhht td.damage {
+    font-family: Roboto, sans-serif;
+}
+.css-12kdhht td.damage > div {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.css-12kdhht td.damage .dealt {
+    text-align: center;
+    color: #758592;
+    font-size: 11px;
+    line-height: 14px;
+}
+.css-12kdhht td.damage .progress {
+    width: 50px;
+    height: 6px;
+    margin: 4px auto 0px;
+    background-color: #FFF;
+}
+.css-12kdhht td.damage .taken {
+    text-align: center;
+    color: #758592;
+    font-size: 11px;
+    line-height: 14px;
+    margin-left: 8px;
+}
+.css-12kdhht td.damage .progress--taken {
+    width: 50px;
+    height: 6px;
+    margin: 4px auto 0px 8px;
+    background-color: #FFF;
+}
+.css-12kdhht td.damage .progress--taken .fill {
+    height: 100%;
+    background-color: #9AA4AF;
+}
+.css-12kdhht td.ward {
+    text-align: center;
+    color: #758592;
+    font-size: 11px;
+    font-family: Roboto, sans-serif;
+}
+.css-12kdhht td.cs {
+    text-align: center;
+    color: #758592;
+    font-size: 11px;
+}
+.progress{
+    width: 30%;
+}   
+.tr-change{
+    box-shadow: 1px 1px 3px 1px #dadce1;
+}
+.css-12kdhht td.items {
+    text-align: center;
+    font-size: 0px;
+}
+.css-12kdhht td {
+    vertical-align: middle;
+    margin: 0px;
+}
+.css-12kdhht td.items .item:nth-of-type(1) {
+    margin-left: 0px;
+}
+.css-12kdhht td.items .item {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 1px;
+    vertical-align: middle;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+/*---------테이블 사이 중간줄---------*/
+
+.css-1dm3230 .summary {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #F7F7F9;
+    font-family: Roboto, sans-serif;
+}
+.css-1dm3230 .summary .team:nth-of-type(1) {
+    padding-right: 0px;
+    padding-left: 16px;
+    text-align: left;
+    border-left: 1px solid transparent;
+}
+.css-1dm3230 .summary .team .object:nth-of-type(1) {
+    margin-left: 0px;
+}
+.css-1dm3230 .summary .team .object {
+    display: inline-block;
+    font-size: 12px;
+    color: #758592;
+    margin-left: 16px;
+}
+.css-1dm3230 .summary .team {
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.css-1dm3230 .summary .team .object img {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
+.css-1dm3230 .summary .summary-graph {
+     flex: 0 1 405px;
+ }
+.css-1dm3230 .summary .summary-graph > div:nth-of-type(1) {
+      padding-top: 8px;
+      padding-bottom: 8px;
+}
+.css-1dm3230 .summary .summary-graph > div .graph div:nth-of-type(1) {
+    margin-left: 4px;
+}
+.css-1dm3230 .summary .summary-graph > div {
+       display: flex;
+       -webkit-box-pack: center;
+       justify-content: center;
+       padding: 0px 8px;
+       font-size: 10px;
+       color: rgb(255, 255, 255);
+   }
+.css-1dm3230 .summary .summary-graph > div .graph {
+    /* position: relative;
+    flex: 0 1 405px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 3px; */
+}
+.css-1dm3230 .summary .summary-graph > div .graph div {
+    flex: 1 1 0%;
+    height: 16px;
+}
+.css-1dm3230 .summary .summary-graph > div .title {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 30px);
+    text-align: center;
+    width: 100%;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.css-1dm3230 .summary .summary-graph > div .graph div:nth-of-type(2) {
+    margin-right: 4px;
+}
+.css-1dm3230 .summary .summary-graph > div .graph div {
+    flex: 1 1 0%;
+    height: 16px;
+}
+.css-1dm3230 .summary .summary-graph > div .data-left {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    width: 40px;
+    line-height: 16px;
+    text-align: left;
+}
+.css-1dm3230 .summary .summary-graph > div .data-right {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    width: 40px;
+    line-height: 16px;
+    text-align: right;
+}
+.css-1dm3230 .summary .summary-graph > div .graph div.lose {
+    background-color: #E84057;
+}
+.css-1dm3230 .summary .summary-graph > div .graph div.win {
+    background-color: #5383E8;
+}
+
+/* .css-8keylx tbody {
+    background-color: #FFF1F3;
+    border-top: 1px solid rgb(255, 216, 217);
+    border-right-color: rgb(255, 216, 217);
+    border-bottom-color: rgb(255, 216, 217);
+    border-left-color: rgb(255, 216, 217);
+} */
+.summary{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content:center;
+    align-self:center;
+}
+.summary-graph{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 10px;
+}
+.graph{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+
+}
+/*--------------------------------------------*/
+.css-8keylx thead th .result {
+    margin-right: 4px;
+    font-weight: bold;
+}
+.css-8keylx thead th {
+    height: 32px;
+    color: #9AA4AF;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D5E3FF;
+}
