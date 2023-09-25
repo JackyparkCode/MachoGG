@@ -150,7 +150,7 @@ function Summoner(){
 
 
 
-    const setApikey='api_key=RGAPI-016701a4-4bec-4d24-951d-12e1adfafc09';
+    const setApikey='api_key=*******************';
     const defaultURL='https://kr.api.riotgames.com/lol/';
     const asiaURL='https://asia.api.riotgames.com/lol/';
 
